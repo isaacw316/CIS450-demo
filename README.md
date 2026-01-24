@@ -1,3 +1,12 @@
 # CIS450-demo
-Sample GitHub Project
-#testchange
+
+## Introduction
+This repo illustrates the best practice README file generation.
+
+## Projects
+Open CV Image Processing demo.
+
+## Resources
+<img src="resources/OpenCV_logo_black-2.webp" alt="Open CV Logo" width="150"/>
+
+[Open-CV](https://opencv.org/)
