@@ -1,0 +1,33 @@
+I said to ChatGPT: modify your ai-panorama.py program to be able to stitch as many images as possible. Teacher was able to stitch 7 of them.
+and I gave it my full code. 
+AI said: 
+The real reason your teacher could stitch 7 images is likely because they:
+
+Resized images (large images cause stitching failure)
+
+Adjusted stitcher settings
+
+Used better feature detection settings
+
+Possibly tried stitching in SCANS mode
+
+So instead of changing the structure, we’ll make it stronger and more tolerant.
+
+✅ Improved Version That Stitches More Images
+
+This version:
+
+Resizes large images (very important)
+
+Tries stitching multiple times
+
+Uses a higher resolution setting
+
+Is more stable
+
+
+It told me to run python ai-panorama.py 1-640x480.png 2-640x480.png 3-640x480.png 4-640x480.png 5-640x480.png 6-640x480.png 7-640x480.png
+
+but I got error code 3
+
+I was able to run it by using  py ai-panorama.py --mode 1 1-640x480.png 2-640x480.png 3-640x480.png 4-640x480.png 5-640x480.png 6-640x480.png 7-640x480.png
