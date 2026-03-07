@@ -26,6 +26,24 @@ Uses a higher resolution setting
 Is more stable
 
 
+🚀 Why This Works Better
+1️⃣ Resizing
+
+Large images (4000px+) often cause:
+
+Memory issues
+
+Feature matching failures
+
+Resizing makes stitching MUCH more reliable.
+
+2️⃣ Confidence Threshold
+stitcher.setPanoConfidenceThresh(0.5)
+
+
+This makes OpenCV less strict when combining many images.
+
+
 It told me to run python ai-panorama.py 1-640x480.png 2-640x480.png 3-640x480.png 4-640x480.png 5-640x480.png 6-640x480.png 7-640x480.png
 
 but I got error code 3
