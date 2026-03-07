@@ -94,3 +94,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# i used  py ai-panorama.py --mode 1 1-640x480.png 2-640x480.png 3-640x480.png 4-640x480.png 5-640x480.png 6-640x480.png 7-640x480.png
