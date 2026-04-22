@@ -94,3 +94,6 @@ First, the image is converted to grayscale and blurred to reduce noise. The Houg
 After the final set of circles is determined, the program converts the image to HSV color space and samples the color inside each detected circle. If the hue, saturation, and value fall within a predefined copper color range, the coin is classified as a penny.
 
 Finally, the program draws labeled circles on the image, displays the total number of coins and pennies, and saves the annotated result.
+
+## Test
+Through testing, I was able to make sure every filter effect and slider at least changed the image. I wasn't very good at making images look better with my sliders, but they seemed to be effective. The positive and negative values were calobrated. The download image button instantly downloads the file. The reset controls button works well and instantly resets your edits. I added 3 test images to the media folder in my project, I was happy with the results.   
