@@ -29,3 +29,8 @@ I like the idea of trying to make face filters similar to what snapchat/tiktok/i
 I will use AI to help me understand how to structure the project, debug code, and learn how OpenCV functions work. I have asked questions about how to apply image filters, how to connect Python code to a web interface, and how to run applications using Docker. I may also use other AI tools like Claude or Grok for additional explanations or examples if I get stuck. The AI tools are mainly helping me learn step-by-step and break down concepts into simpler parts so I can actually implement them myself.
 
 This design will likely change as I continue developing the project, especially as I discover what is realistic to complete within the time limit.
+
+I use this to run my file:
+cd C:\Users\ikecr\OneDrive\Desktop\CIS450\CIS450-demo\finalproject\template
+.\.venv\Scripts\Activate.ps1
+python app.py
